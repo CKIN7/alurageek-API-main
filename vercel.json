@@ -5,10 +5,11 @@
             "includeFiles": "db.json"
         }
     },
+
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/",
+            "dest": "api/server.js",
             "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
         }
     ]
